@@ -8,10 +8,9 @@
 # Site settings
 title: Фотография в удовльствие
 email: ioksha@gmail.com
-description: >
-  Детский фотограф в Минске.
+description: Незабываемые фотосессии в Минске. Фотограф Ольга Горобчук.
 baseurl: "/volha.photo" # the subpath of your site, e.g. /blog
-url: "http://VolhaHarabchuk.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 github_username:  VolhaHarabchuk
 
 # Build settings
