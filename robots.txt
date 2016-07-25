@@ -1,0 +1,3 @@
+User-agent: Yandex
+Host: volha.photo
+
