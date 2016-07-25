@@ -6,7 +6,36 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script src="{{ site.url }}/static/js/packed.js?c0196153"></script>
+
+  <meta name="yandex-verification" content="4f56e6e91c394769" />
+  <meta name="google-site-verification" content="CtrGNBN3rneziz-sEOEAJofFfYn36HI_OLiDN15A6qM" />
+  <meta name="google-site-verification" content="FRaH_TDvKMYiSGLALUX1kxyd5sh9_SLMDbqN4uJD2lk" />
+  <link rel="icon" href="{{ site.url }}/static/img/favicon.ico" type="image/x-icon">
+
+  <!--<meta property="og:image" content="{{ site.url }}/static/img/betty.jpg">-->
+  <!--<meta property="og:title" content="Бэтти с удовольствием позировала во время фотосессии">-->
+  <meta property="og:description" content="Фотосессия в Минске, в студии или на улице">
+  <meta property="og:url" content="http://volha.photo">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Услуги фотографа в Минске">
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ site.url }}/static/css/style.min.css?5d0d3859">
+  <!-- JS -->
+
+  <!-- Webfonts -->
+  <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if IE 9]>
+  <link rel="stylesheet" type="text/css" href="{{ site.url }}/static/css/ie.css">
+  <![endif]-->
 </head>

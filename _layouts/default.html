@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
   <body>
+    <!-- Site Wrapper -->
+    <div class="site-wrapper">
 
-    {% include header.html %}
+        <!-- Back Top -->
+        <i class="fa fa-chevron-up back-top downscaled"></i>
 
-    <div class="page-content">
-      <div class="wrapper">
         {{ content }}
-      </div>
+
+        {% include footer.html %}
+
+    <!-- /Site Wrapper -->
     </div>
-
-    {% include footer.html %}
-
+    {% include scripts.html %}
   </body>
-
 </html>
