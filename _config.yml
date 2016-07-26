@@ -10,7 +10,7 @@ title: Фотография в удовльствие
 email: ioksha@gmail.com
 description: Незабываемые фотосессии в Минске. Фотограф Ольга Горобчук.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://volha.photo" # the base hostname & protocol for your site
+url: "http://www.volha.photo" # the base hostname & protocol for your site
 github_username:  VolhaHarabchuk
 
 # Build settings
