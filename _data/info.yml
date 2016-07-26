@@ -1,0 +1,12 @@
+phone: "+375 29 342 54 40"
+prices:
+  visible: false
+  studio:
+    1_hour: "100"
+    2_hour: "160"
+    3_hour: "210"
+    4_hour: "260"
+  children:
+    1_hour_studio: "100"
+    2_hour_studio: "160"
+    1_hour_home: "100"
