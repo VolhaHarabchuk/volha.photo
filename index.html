@@ -1,8 +1,20 @@
 ---
-layout: page
+layout: default
 title: Незабываемые фотосессии в Минске. Фотограф Ольга Горобчук.
 permalink: /
 ---
+
+{% if site.data.info.prices.visible %}
+  {% assign more_title = "Узнать цены" %}
+  {% assign more_men_title = "Цены на мужскую фотосессию" %}
+  {% assign more_whomen_title = "Цены на женскую фотосессию" %}
+  {% assign more_children_title = "Цены на детскую фотосессию" %}
+{% else %}
+  {% assign more_title = "Подробнее" %}
+  {% assign more_men_title = "Подробнее о мужской фотосессии" %}
+  {% assign more_whomen_title = "Подробнее о женской фотосессии" %}
+  {% assign more_children_title = "Подробнее о детской фотосессии" %}
+{% endif %}
 
 <!-- Slider -->
 <section class="slider" id="slider">
@@ -13,10 +25,7 @@ permalink: /
         <!-- Slide Content -->
         <div class="slide-content" style="width: 47%">
             <h1>Фотография в удовольствие</h1>
-            <h3>Незабываемые фотосессии в Минске. Фотограф Ольга Горобчук.</h3>
-            <div class="button-container">
-                <a href="#order" class="button color">Записаться на фотосессию</a>
-            </div>
+            <h3>Незабываемые фотосессии в Минске. Фотограф Ольга Горобчук. <br>{{site.data.info.phone}}</h3>
         </div>
 
         <!-- Slide Model -->
@@ -48,7 +57,8 @@ permalink: /
                 Незабываемая фотосессия для себя. В фотостудии или на улице в г. Минске.
             </p>
 
-            <a href="whomen.html" class="button color">Узнать цены</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+            <a href="whomen.html" class="button color">{{more_title}}</a>
+            <span class="phone">{{site.data.info.phone}}</span>
         </div>
     </div><!-- / Container -->
 </section><!-- / Showcase -->
@@ -66,7 +76,8 @@ permalink: /
             <p>Профессиональный фотограф подчеркнет ваши сильные стороны, покажет вас серьезным, веселым,
                 добродушным, романтичным, таким, как вы себя видите.
             </p>
-            <a href="men.html" class="button color">Узнать цены</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+            <a href="men.html" class="button color">{{more_title}}</a>
+            <span class="phone">{{site.data.info.phone}}</span>
         </div>
 
         <!-- Model -->
@@ -93,7 +104,8 @@ permalink: /
             <p>
                 Незабываемая фотосессия для ваших детей и для вас. В фотостудии или у вас дома.
             </p>
-            <a href="children.html" class="button color">Узнать цены</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+            <a href="children.html" class="button color">{{more_title}}</a>
+            <span class="phone">{{site.data.info.phone}}</span>
         </div>
     </div><!-- / Container -->
 </section><!-- / Showcase -->
@@ -182,7 +194,7 @@ permalink: /
         </div>
 
         <div style="clear: left">
-            <a href="whomen.html" class="button color">Цены на женскую фотосессию</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+            <a href="whomen.html" class="button color">{{more_whomen_title}}</a> <span class="phone">{{site.data.info.phone}}</span>
         </div>
 
         <div class="four columns">
@@ -243,7 +255,7 @@ permalink: /
         </div>
 
         <div style="clear: left">
-            <a href="children.html" class="button color">Цены на детскую фотосессию</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+            <a href="children.html" class="button color">{{more_children_title}}</a> <span class="phone">{{site.data.info.phone}}</span>
         </div>
 
 
@@ -311,7 +323,7 @@ permalink: /
             </div>
         </div>
 
-        <a href="men.html" class="button color">Цены на мужскую фотосессию</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+        <a href="men.html" class="button color">{{more_men_title}}</a> <span class="phone">{{site.data.info.phone}}</span>
 
     </div><!-- / Container -->
 

@@ -1,66 +1,10 @@
-﻿<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
-<html>
-<head>
-    <script src="http://volha.photo/static/js/packed.js?c0196153"></script>
-
-	<title>Женская фотосессия в Минске</title>
-    <meta name="description" content="Услуги фотографа в Минске">
-    <meta name='yandex-verification' content='4f56e6e91c394769' />
-    <meta name="google-site-verification" content="CtrGNBN3rneziz-sEOEAJofFfYn36HI_OLiDN15A6qM" />
-    <meta name="google-site-verification" content="FRaH_TDvKMYiSGLALUX1kxyd5sh9_SLMDbqN4uJD2lk" />
-    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" href="http://volha.photo/static/img/favicon.ico" type="image/x-icon">
-
-    <!--<meta property="og:image" content="http://volha.photo/static/img/betty.jpg">-->
-    <!--<meta property="og:title" content="Бэтти с удовольствием позировала во время фотосессии">-->
-    <meta property="og:description" content="Фотосессия в Минске, в студии или на улице">
-    <meta property="og:url" content="http://volha.photo">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Услуги фотографа в Минске">
-    <meta property="og:locale" content="ru_RU">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="http://volha.photo/static/css/style.min.css?5d0d3859">
-    <!-- JS -->
-
-    <script src="//www.google-analytics.com/cx/api.js?experiment=gOI6TKCLRhCmsGal4fD0Fw"></script>
-    <script>
-//        var variation = cxApi.chooseVariation();
-//        var css = document.createElement('link');
-//        css.href='css/'+(variation ? 'color2.css':'color.css');
-//        css.rel='stylesheet';
-//        css.type='text/css';
-//        document.getElementsByTagName('head')[0].appendChild(css);
-//        console.log(variation);
-    </script>
-
-    <!-- Webfonts -->
-    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!--[if IE 9]>
-    <link rel="stylesheet" type="text/css" href="http://volha.photo/static/css/ie.css">
-    <![endif]-->
+---
+layout: default
+title: Женская фотосессия в Минске
+permalink: /whomen.html
+---
 
 
-</head>
-<body>
-
-<!-- Site Wrapper -->
-<div class="site-wrapper">
-
-    <!-- Back Top -->
-    <i class="fa fa-chevron-up back-top downscaled"></i>
-
-    
 <!-- Slider -->
 <section class="slider" id="slider">
 
@@ -70,16 +14,12 @@
         <!-- Slide Content -->
         <div class="slide-content" style="width: 47%">
             <h1>Как запечатлеть себя красивой, успешной, уверенной?</h1>
-            <h3>Незабываемая фотосессия для себя. В фотостудии или на улице в г. Минске.</h3>
-            <!--<h3>Когда мы смотрим на фотографии, где нравимся себе, это поднимает нашу самооценку, придает уверенность.</h3>-->
-            <div class="button-container">
-                <a href="#order" class="button color">Записаться на фотосессию</a>
-            </div>
+            <h3>Незабываемая фотосессия для себя. В фотостудии или на улице в г. Минске. {{site.data.info.phone}}</h3>
         </div>
 
         <!-- Slide Model -->
         <div class="slide-model">
-            <img src="http://volha.photo/images/slider/polaroid_models-lg.png" alt="Фотографии моделей" class="slide-model-a" />
+            <img src="{{ site.baseurl }}/images/slider/polaroid_models-lg.png" alt="Фотографии моделей" class="slide-model-a" />
         </div>
 
     </div><!-- / Container -->
@@ -95,7 +35,7 @@
 
         <!-- Model -->
         <div class="seven columns showcase-model">
-            <img src="http://volha.photo/images/showcase/showcase_model_06.png" alt="App Showcase Image" />
+            <img src="{{ site.baseurl }}/images/showcase/showcase_model_06.png" alt="App Showcase Image" />
         </div>
 
         <!-- Contents -->
@@ -108,7 +48,7 @@
                 лучше взять с собой.
             </p>
 
-            <a href="#order" class="button color">Записаться на фотосессию</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+            <span class="phone">Записаться на фотосессию {{site.data.info.phone}}</span>
         </div>
     </div><!-- / Container -->
 </section><!-- / Showcase -->
@@ -126,12 +66,12 @@
             <p>Одежда, позы, аксессуары, помогают составить о вас впечатление. Хороший фотограф создает
                 не картинку, а образ. Не секрет, что поза, взгляд, выражение лица
                 оказывают сильное влияние на восприятие.</p>
-            <a href="#order" class="button color">Записаться на фотосессию</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+            <span class="phone">Записаться на фотосессию {{site.data.info.phone}}</span>
         </div>
 
         <!-- Model -->
         <div class="seven columns showcase-model">
-            <img src="http://volha.photo/images/showcase/showcase_model_05.png" alt="App Showcase Image" />
+            <img src="{{ site.baseurl }}/images/showcase/showcase_model_05.png" alt="App Showcase Image" />
         </div>
 
     </div><!-- / Container -->
@@ -143,7 +83,7 @@
     <div class="container">
         <!-- Model -->
         <div class="seven columns showcase-model">
-            <img src="http://volha.photo/images/showcase/showcase_model_07.png" alt="App Showcase Image" />
+            <img src="{{ site.baseurl }}/images/showcase/showcase_model_07.png" alt="App Showcase Image" />
         </div>
 
         <!-- Contents -->
@@ -151,7 +91,7 @@
             <h1>Ваши сильные стороны</h1>
             <div class="title-bullet"><span></span></div>
             <p>Профессиональный фотограф подчеркнет ваши сильные стороны, покажет вас такой, какой вы себя видите.</p>
-            <a href="#order" class="button color">Записаться на фотосессию</a> <span class="phone">+375&nbsp;29&nbsp;342&nbsp;54&nbsp;40</span>
+            <span class="phone">Записаться на фотосессию {{site.data.info.phone}}</span>
         </div>
     </div><!-- / Container -->
 </section><!-- / Showcase -->
@@ -172,8 +112,8 @@
         <!-- Screenshot -->
         <div class="four columns">
             <div class="screenshot">
-                <a href="http://volha.photo/images/portfolio/fotosessia-minsk-1.jpg" class="image-link">
-                    <img src="http://volha.photo/images/portfolio/fotosessia-minsk-1-sm.jpg" alt="App Screenshot" />
+                <a href="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-1.jpg" class="image-link">
+                    <img src="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-1-sm.jpg" alt="App Screenshot" />
                 </a>
             </div>
         </div>
@@ -181,8 +121,8 @@
         <!-- Screenshot -->
         <div class="four columns">
             <div class="screenshot">
-                <a href="http://volha.photo/images/portfolio/fotosessia-minsk-2.jpg" class="image-link">
-                    <img src="http://volha.photo/images/portfolio/fotosessia-minsk-2-sm.jpg" alt="App Screenshot" />
+                <a href="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-2.jpg" class="image-link">
+                    <img src="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-2-sm.jpg" alt="App Screenshot" />
                 </a>
             </div>
         </div>
@@ -190,8 +130,8 @@
         <!-- Screenshot -->
         <div class="four columns">
             <div class="screenshot">
-                <a href="http://volha.photo/images/portfolio/fotosessia-minsk-3.jpg" class="image-link">
-                    <img src="http://volha.photo/images/portfolio/fotosessia-minsk-3-sm.jpg" alt="App Screenshot" />
+                <a href="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-3.jpg" class="image-link">
+                    <img src="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-3-sm.jpg" alt="App Screenshot" />
                 </a>
             </div>
         </div>
@@ -199,8 +139,8 @@
         <!-- Screenshot -->
         <div class="four columns">
             <div class="screenshot">
-                <a href="http://volha.photo/images/portfolio/fotosessia-minsk-4.jpg" class="image-link">
-                    <img src="http://volha.photo/images/portfolio/fotosessia-minsk-4-sm.jpg" alt="App Screenshot" />
+                <a href="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-4.jpg" class="image-link">
+                    <img src="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-4-sm.jpg" alt="App Screenshot" />
                 </a>
             </div>
         </div>
@@ -208,8 +148,8 @@
         <!-- Screenshot -->
         <div class="four columns">
             <div class="screenshot">
-                <a href="http://volha.photo/images/portfolio/fotosessia-minsk-5.jpg" class="image-link">
-                    <img src="http://volha.photo/images/portfolio/fotosessia-minsk-5-sm.jpg" alt="App Screenshot" />
+                <a href="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-5.jpg" class="image-link">
+                    <img src="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-5-sm.jpg" alt="App Screenshot" />
                 </a>
             </div>
         </div>
@@ -217,24 +157,24 @@
         <!-- Screenshot -->
         <div class="four columns">
             <div class="screenshot">
-                <a href="http://volha.photo/images/portfolio/fotosessia-minsk-6.jpg" class="image-link">
-                    <img src="http://volha.photo/images/portfolio/fotosessia-minsk-6-sm.jpg" alt="App Screenshot" />
+                <a href="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-6.jpg" class="image-link">
+                    <img src="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-6-sm.jpg" alt="App Screenshot" />
                 </a>
             </div>
         </div>
         <!-- Screenshot -->
         <div class="four columns">
             <div class="screenshot">
-                <a href="http://volha.photo/images/portfolio/fotosessia-minsk-7.jpg" class="image-link">
-                    <img src="http://volha.photo/images/portfolio/fotosessia-minsk-7-sm.jpg" alt="App Screenshot" />
+                <a href="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-7.jpg" class="image-link">
+                    <img src="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-7-sm.jpg" alt="App Screenshot" />
                 </a>
             </div>
         </div>
         <!-- Screenshot -->
         <div class="four columns">
             <div class="screenshot">
-                <a href="http://volha.photo/images/portfolio/fotosessia-minsk-8.jpg" class="image-link">
-                    <img src="http://volha.photo/images/portfolio/fotosessia-minsk-8-sm.jpg" alt="App Screenshot" />
+                <a href="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-8.jpg" class="image-link">
+                    <img src="{{ site.baseurl }}/images/portfolio/fotosessia-minsk-8-sm.jpg" alt="App Screenshot" />
                 </a>
             </div>
         </div>
@@ -246,7 +186,7 @@
 			<span class="lightbox-close">
 				<i class="fa fa-times"></i>
 			</span>
-        <img src="http://volha.photo/images/shots/screenshot_01.jpg" alt="App Screenshot" />
+        <img src="{{ site.baseurl }}/images/shots/screenshot_01.jpg" alt="App Screenshot" />
     </div>
     <!-- Lightbox Overlay-->
     <div class="lightbox-overlay"></div>
@@ -267,7 +207,7 @@
                 <!-- Testimonial -->
                 <blockquote class="quote-slide">
                     <div class="client-avatar">
-                        <img src="http://volha.photo/images/testimonials/volha-portrait-red.jpg" alt="App Buyer Client" />
+                        <img src="{{ site.baseurl }}/images/testimonials/volha-portrait-red.jpg" alt="App Buyer Client" />
                     </div>
                     <h3><i class="fa fa-quote-left"></i>Фотограф Ольга Горобчук</h3>
                     <p>с удовольствием работаю с людьми, в том числе с непрофессиональными моделями и считаю,
@@ -281,6 +221,7 @@
     </div><!-- / Container -->
 </section><!-- / Testimonials -->
 
+{% if site.data.info.prices.visible %}
 <!-- Pricing -->
 <section class="pricing" id="pricing">
 
@@ -297,7 +238,7 @@
             <div class="price-table">
                 <header class="price-table-header">
                     <h3>4х часовая</h3>
-                    <span>2 600 000 руб.</span>
+                    <span>{{site.data.info.prices.studio.4_hour}} руб.</span>
                 </header>
                 <div class="price-table-body">
                     <ul>
@@ -305,7 +246,6 @@
                         <li>40 фотографий с базовой обработкой</li>
                         <li>Максимальное количество удачных и эмоциональных кадров</li>
                     </ul>
-                    <a href="#order" class="button color">Записаться</a>
                 </div>
             </div>
         </div>
@@ -315,7 +255,7 @@
             <div class="price-table large">
                 <header class="price-table-header">
                     <h3>3х часовая</h3>
-                    <span>2 100 000 руб.</span>
+                    <span>{{site.data.info.prices.studio.3_hour}} руб.</span>
                 </header>
                 <div class="price-table-body">
                     <ul>
@@ -323,7 +263,6 @@
                         <li>30 фотографий с базовой обработкой</li>
                         <li>Хороший баланс между временем фотосессии и качеством фотографий</li>
                     </ul>
-                    <a href="#order" class="button color">Записаться</a>
                 </div>
             </div>
         </div>
@@ -333,7 +272,7 @@
             <div class="price-table">
                 <header class="price-table-header">
                     <h3>2х часовая</h3>
-                    <span>1 600 000 руб.</span>
+                    <span>{{site.data.info.prices.studio.2_hour}} руб.</span>
                 </header>
                 <div class="price-table-body">
                     <ul>
@@ -341,13 +280,12 @@
                         <li>20 фотографий с базовой обработкой</li>
                         <li>Подходит для тех кто по разным причинам не может провести длительную фотосессию.</li>
                     </ul>
-                    <a href="#order" class="button color">Записаться</a>
                 </div>
             </div>
         </div>
 
         <div class="sixteen columns section-title">
-            <h3 style="font-weight: normal">Записаться на фотосессию по телефону: +375 (29) 342-54-40, Ольга</h3>
+            <h3 style="font-weight: normal">Записаться на фотосессию по телефону: {{site.data.info.phone}}, Ольга</h3>
         </div>
 
 
@@ -365,7 +303,7 @@
             <div class="title-bullet"><span></span></div>
         </div>
         <div class="columns eight">
-            <img style="border: solid 1px darkred;" src="http://volha.photo/images/podarochny-sertifikat.jpg" alt="Подарочный сертификат на женскую фотосессию" />
+            <img style="border: solid 1px darkred;" src="{{ site.baseurl }}/images/podarochny-sertifikat.jpg" alt="Подарочный сертификат на женскую фотосессию" />
         </div>
         <div class="columns eight">
             <p style="font-weight: bold">
@@ -384,82 +322,13 @@
 
             <p>
                 <strong>Стоимость сертификата на мужскую фотосессию:</strong> <br>
-                В студии 4 часа &mdash; 2 600 000 руб.<br>
-                В студии 3 часа &mdash; 2 100 000 руб.<br>
-                В студии 2 часа &mdash; 1 600 000 руб.<br>
+                В студии 4 часа &mdash; {{site.data.info.prices.studio.4_hour}} руб.<br>
+                В студии 3 часа &mdash; {{site.data.info.prices.studio.3_hour}} руб.<br>
+                В студии 2 часа &mdash; {{site.data.info.prices.studio.2_hour}} руб.<br>
             </p>
 
         </div>
     </div>
 </section>
 <!-- / Certificate -->
-
-<!-- Subscribe -->
-<section class="subscribe" id="subscribe">
-    <a name="order"></a>
-    <!-- Container -->
-    <div class="container">
-        <!-- Basic Contact Form -->
-        <div class="sixteen columns contact-form">
-            <h2 class="form-tip">Предварительная запись на фотосессию</h2>
-            <p class="form-tip">Предварительная запись ни к чему не обязывает, <br>позволяет узнать, смогу ли я сделать для вас
-                подходящую фотосессию.<br>После заявки я перезвоню вам и мы обсудим вашу фотосессию.
-            </p>
-            <form method="post" action="" id="cform">
-                <input type="hidden" name="product" value="Женская фотосессия" />
-                <label>Имя</label>
-                <input type="text" name="name" class="textfield" placeholder="Как к Вам обращаться" required />
-                <label>Email</label>
-                <input type="email" name="email" class="textfield" placeholder="Ваш email адрес" required />
-                <label>Телефон</label>
-                <input type="text" name="phone" class="textfield" placeholder="Контактный телефон" required />
-                <input type="submit" value="Записаться" class="button color" />
-            </form>
-            <h2 id="success"></h2>
-            <p class="form-tip">Вы, также можете записаться или задать вопросы по телефону +375 29 342 54 40. <br>Если я не смогла ответить,
-                возможно, я на фотосессии. Я обязательно перезвоню сразу как освобожусь.
-            </p>
-        </div>
-    </div><!-- / Container -->
-</section><!-- / Subscribe -->
-
-
-
-<!-- Footer -->
-<footer class="footer" id="footer">
-    <!-- Container -->
-    <div class="container">
-        <h6 class="copyright-text">Фотограф Ольга Горобчук г. Минск, Беларусь.  Заказ фотосессии: +375 29 342 54 40</h6>
-    </div><!-- / Container -->
-</footer><!-- / Footer -->
-</div><!-- / Site Wrapper -->
-
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-9634087-2', 'auto');
-    ga('send', 'pageview');
-
-    setInterval(function () {
-        ga("send", "event", "ping", "ping", "15");
-    }, 15000);
-
-</script>
-<script>
-    $(document).ready(function() {
-        $('.image-link').magnificPopup({type:'image'});
-    });
-</script>
-
-</body>
-</html>
+{% endif %}
